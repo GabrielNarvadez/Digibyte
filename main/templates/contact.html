@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include 'personal/snippets/header.html' %}
+</head>
+
+<body>
+
+    <div class="page-loader"></div>
+
+    <div class="wrapper">
+
+        <header>
+            
+
+            <!-- ======================== Navigation ======================== -->
+
+            {% include 'personal/snippets/nav.html' %}
+
+
+        </header>
+
+        <!-- ======================== Contact ======================== -->
+
+        <section class="page">
+
+            <!-- ===  Page header === -->
+
+            <div class="page-header" style="background-image:url(../static/assets/images/header-1.jpg)">
+                <div class="container">
+                    <h2 class="title">Contact</h2>
+                    <p>The place, our services & our team</p>
+                </div>
+            </div>
+
+            <!-- ===  Contact === -->
+
+            <div class="contact">
+
+                <div class="container">
+
+                    <!-- === Google map === -->
+
+                    <div class="map" id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.06491183431!2d120.5973956111698!3d14.19097638619086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd8dc1addd2c43%3A0xbddcaf29d58d42e8!2sPico%20De%20Loro%20Beach%20Resort%20Condo%20Miranda%20B%20308!5e0!3m2!1sen!2sph!4v1702337466923!5m2!1sen!2sph" width="1380" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+
+                            <!-- === Contact block === -->
+
+                            <div class="contact-block">
+
+                                <!-- === Contact banner === -->
+
+                                <div class="banner">
+                                    <div class="row">
+                                        <div class="col-md-offset-1 col-md-10 text-center">
+                                            <h2 class="title">Send an email</h2>
+                                            <p>
+                                                Please use this form if you have any questions about our products <br /> and we'll get back with you very soon.
+                                            </p>
+
+                                            <div class="contact-form-wrapper">
+
+                                                <a class="btn btn-clean open-form" data-text-open="Contact us via form" data-text-close="Close form">Contact us via form</a>
+
+                                                <div class="contact-form clearfix">
+                                                    <form action="#" method="post">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="form-group">
+                                                                    <input type="text" value="" class="form-control" placeholder="Your name" required="required">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-6">
+                                                                <div class="form-group">
+                                                                    <input type="email" value="" class="form-control" placeholder="Your email" required="required">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-12">
+
+                                                                <div class="form-group">
+                                                                    <input type="text" value="" class="form-control" placeholder="Subject" required="required">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <textarea class="form-control" placeholder="Your message" rows="10"></textarea>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-12 text-center">
+                                                                <input type="submit" class="btn btn-clean" value="Send message" />
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- === Contact info === -->
+
+                                <div class="contact-info">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <figure class="text-center">
+                                                <span class="icon icon-map-marker"></span>
+                                                <figcaption>
+                                                    <strong>Where are we?</strong>
+                                                    <span>Digibyte Cove, Hamilo Coast,  <br /> Barangay Papaya, Nasugbu, 4321 Batangas, Philippines</span>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <figure class="text-center">
+                                                <span class="icon icon-phone"></span>
+                                                <figcaption>
+                                                    <strong>Call us</strong>
+                                                    <span>
+                                                        <strong>Telephone</strong> +632 8 464 7888  <br />
+                                                        <strong>Mobile</strong> +63 917 809 12 89 | +63 917 845 5847 | +63 917 834 3302
+                                                    </span>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <figure class="text-center">
+                                                <span class="icon icon-clock"></span>
+                                                <figcaption>
+                                                    <strong>Working hours</strong>
+                                                    <span>
+                                                        <strong>Mon - Sat</strong> : 7 am - 8 pm <br />
+                                                        <strong>Sun</strong> 9pm - 6 pm
+                                                    </span>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div> <!--/contact-block-->
+                        </div><!--col-sm-8-->
+                    </div> <!--/row-->
+                </div> <!--/container-->
+            </div> <!--/contact-->
+        </section>
+
+        <!-- ========================  Subscribe ======================== -->
+
+        <!-- ================== Footer  ================== -->
+
+{% include 'personal/snippets/footer.html' %}
+
+
+</body>
+
+</html>
